@@ -1,0 +1,21 @@
+#usuario {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#usuario div {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+table, td, tr, th {
+    width: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+input {
+    margin: 10px 0;
+}
