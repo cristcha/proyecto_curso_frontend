@@ -7,28 +7,21 @@
     <link rel="stylesheet" href="../../css/consultaUsuario.css" />
   </head>
   <body>
+    <h1>PET DOCTOR</h1>
     <div id="usuario">
-      <div>
-        <label for="">Identificación</label>
-        <br />
-        <input type="text" disabled />
-        <br />
-        <label for="">Nombre</label>
-        <br />
-        <input type="text" disabled />
-        <br />
-        <label for="">Correo</label>
-        <br />
-        <input type="email" name="" id="" disabled />
-        <br />
-        <label for="">Celular</label>
-        <br />
-        <input type="text" name="" id="" disabled />
-        <br />
-        <label for="">Direcci&oacute;n</label>
-        <br />
-        <input type="text" name="" id="" disabled />
-      </div>
+      <label for="">Identificación</label>
+      <input type="text" disabled />
+      <label for="">Nombre</label>
+      <input type="text" disabled />
+      <label for="">Correo</label>
+      <input type="email" name="" id="" disabled />
+      <br>
+      <label for="">Celular</label>
+      <input type="text" name="" id="" disabled />
+      <label for="">Direcci&oacute;n</label>
+      <input type="text" name="" id="" disabled />
+    </div>
+    <div id="datos">
       <div>
         <h2>Datos de la Mascota</h2>
         <table>
@@ -59,42 +52,48 @@
           </tbody>
         </table>
       </div>
-    </div>
-    <div>
-      <h2>Citas</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>C&oacute;digo</th>
-            <th>Mascota</th>
-            <th>Tipo</th>
-            <th>Fecha</th>
-            <th>Hora</th>
-            <th>Veterinario</th>
-            <th>Estado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>FI0001</td>
-            <td>Firulais</td>
-            <td>Consulta</td>
-            <td>15/11/2024</td>
-            <td>03:00 PM</td>
-            <td>Hannah</td>
-            <td>Agendada</td>
-          </tr>
-          <tr>
-            <td>MI0001</td>
-            <td>Mishi</td>
-            <td>Vacunaci&oacute;n</td>
-            <td>25/08/2024</td>
-            <td>10:00 AM</td>
-            <td>Jhon</td>
-            <td>Tomada</td>
-          </tr>
-        </tbody>
-      </table>
+      <div>
+        <h2>Citas</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>C&oacute;digo</th>
+              <th>Mascota</th>
+              <th>Tipo</th>
+              <th>Fecha</th>
+              <th>Hora</th>
+              <th>Veterinario</th>
+              <th>Estado</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>FI0001</td>
+              <td>Firulais</td>
+              <td>Consulta</td>
+              <td>15/11/2024</td>
+              <td>03:00 PM</td>
+              <td>Hannah</td>
+              <td>Agendada</td>
+              <td><button class="b-reagendar">Reagendar</button></td>
+              <td><button class="b-cancelar">Cancelar</button></td>
+            </tr>
+            <tr>
+              <td>MI0001</td>
+              <td>Mishi</td>
+              <td>Vacunaci&oacute;n</td>
+              <td>25/08/2024</td>
+              <td>10:00 AM</td>
+              <td>Jhon</td>
+              <td>Tomada</td>
+              <td><button class="b-reagendar">Reagendar</button></td>
+              <td><button class="b-cancelar">Cancelar</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <a href="home.html">Volver</a>
   </body>
