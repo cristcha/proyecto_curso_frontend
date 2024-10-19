@@ -1,0 +1,88 @@
+body {
+    background-image: url("../static/img/home.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: #8f6041;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+section div {
+    background-color: rgba(36, 123, 223, 0.425);
+    height: 250px;
+}
+
+section div:first-child {
+    margin-right: 60px;
+}
+
+h2 {
+    color: #e4e3e9;
+    background-color: rgba(8, 8, 17, 0.795);
+}
+
+
+section {
+    width: 100%;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    box-shadow: 1px 5px 10px;
+}
+
+div label {
+    font-size: 20px;
+}
+
+div input {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+#volver {
+    margin-top: 130px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.b-registrar {
+    display: inline-block;
+    background-color: rgb(18, 69, 146);
+    color: aliceblue;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.b-registrar:hover {
+    background-color: rgb(19, 52, 102);
+    cursor: pointer;
+}
+#b-volver {
+    display: inline-block;
+    background-color: rgb(152, 27, 177);
+    color: aliceblue;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#b-volver:hover {
+    background-color: rgb(59, 21, 90);
+    cursor: pointer;
+}

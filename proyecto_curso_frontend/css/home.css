@@ -1,0 +1,69 @@
+body{
+   background-image: url("../static/img/home.jpg");
+   background-size: cover;
+   background-position: center;
+
+}
+#cuadro1{
+    background-color: rgba(197, 96, 38, 0.842);
+    border: 3px solid  #8f6041;
+    padding: 5px;
+    margin: 5%;
+    width: 37%;
+    margin: 5%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    text-align: center;
+
+}
+#cuadro2{
+    background-color: rgba(197, 96, 38, 0.842);
+    border: 3px solid  #8f6041;
+    padding: 5px;
+    margin: 5%;
+    width: 37%;
+    margin: 5%;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #8f6041;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+#registro{
+    text-align:center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #381f0e;
+    
+}
+#consulta{
+    text-align:center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #381f0e
+}
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #11e7cb; /* Color de fondo */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center; 
+    cursor: pointer;
+    }
+    
+    
+    
+a{   
+    background-color: #45a049; /* Color al pasar el ratón */
+    }
