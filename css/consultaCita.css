@@ -84,3 +84,14 @@ p {
     background-color: rgb(59, 21, 90);
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+    }
+    div textarea {
+        width: 350px;
+        height: 100px;
+        background-color: antiquewhite;
+    }
+}
