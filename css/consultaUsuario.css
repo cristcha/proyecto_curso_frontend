@@ -70,6 +70,7 @@ input {
     background-color: rgb(26, 99, 128);
     cursor: pointer;
 }
+
 .b-reagendar {
     background-color: rgb(63, 63, 228);
     color: aliceblue;
@@ -83,6 +84,7 @@ input {
     background-color: rgb(26, 26, 128);
     cursor: pointer;
 }
+
 .b-cancelar {
     background-color: rgb(228, 63, 63);
     color: aliceblue;
@@ -113,6 +115,7 @@ input {
     background-color: rgb(76, 145, 167);
     cursor: pointer;
 }
+
 #b-volver {
     display: inline-block;
     background-color: rgb(152, 27, 177);
@@ -128,4 +131,31 @@ input {
 #b-volver:hover {
     background-color: rgb(59, 21, 90);
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    #usuario {
+        height: fit-content;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #usuario label, #usuario input {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #datos {
+        overflow-x: auto;
+    }
+
+    #datos table td:nth-child(6), #datos table th:nth-child(6), #datos table th:nth-child(7), #datos table td:nth-child(7), #datos table th:nth-child(2), #datos table td:nth-child(2){
+        display: none;
+        background-color: aqua;
+    }
 }

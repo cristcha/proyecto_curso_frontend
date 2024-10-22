@@ -10,24 +10,27 @@
     <h1>PET DOCTOR</h1>
     <section>
         <div>
-            <h2>Usuario</h2>
-            <label for="">Identificación</label>
-            <br>
-            <input type="search" name="" id="" required>
-            <br>
-            <a href="consultaUsuario.html" class="b-consultar">Consultar</a>
+            <form action="">
+                <h2>Usuario</h2>
+                <label for="">Identificación</label>
+                <br>
+                <input type="search" name="" id="id" required>
+                <br>
+                <button onclick="validar_numero()" type="submit" class="b-consultar">Consultar</button>
+            </form>
         </div>
         <div>
             <h2>Cita</h2>
             <label for="">Código Cita</label>
             <br>
-            <input type="search" name="" id="" required>
+            <input type="search" name="" id="codigo" required>
             <br>
-            <a href="consultaCita.html" class="b-consultar">Consultar</a>
+            <button onclick="validar_codigo()" type="submit" class="b-consultar">Consultar</button>
         </div>
     </section>
     <div id="volver">
         <a href="home.html" id="b-volver">Volver</a>
     </div>
+    <script src="../../js/consultar.js"></script>
     </body>
 </html>
