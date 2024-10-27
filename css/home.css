@@ -31,7 +31,7 @@ body{
 }
 h1{
     text-align: center;
-    color: #8f6041;
+    color: #381f0e;
     font-size: 90px;
     font-weight: 900;
 }
@@ -67,3 +67,28 @@ a{
 a{   
     background-color: #45a049; /* Color al pasar el ratón */
     }
+
+@media screen and (max-width: 480px) {
+    h1{
+        position: left;
+        left: 5%; /* margen del parrafo con respecto al borde*/
+        top: 5%;
+        font-size: 50px;
+
+    }
+    #cuadro1{
+        position: relative;
+        text-align: center;
+        left: 25%; /* margen del parrafo con respecto al borde*/
+        top: 20%;
+        font-size: 30px;
+
+    }
+    #cuadro2{
+        position: relative ;
+        left: 25%; /* margen del parrafo con respecto al borde*/
+        top: 20%;
+        font-size: 30px;
+    }
+
+}
